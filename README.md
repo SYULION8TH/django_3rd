@@ -54,7 +54,7 @@ def home(request):
     return render(request, "posts/index.html", {"posts":page_posts}) # 변경된 코드
 ```
 
-### 'index.html`
+### `index.html`
 ```html
 <!-- 페이지네이션 코드 -->
 <div class="pagination">
